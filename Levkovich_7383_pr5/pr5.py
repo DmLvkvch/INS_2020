@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 SIZE_TRAIN_DATA = 10000
 SIZE_TEST_DATA = 500
-
+#достаточно проблематично обучается, потребовались большие объемы данных и эпох обучения
 def genData(size):
     data = []
     targets = []
